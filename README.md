@@ -1,5 +1,10 @@
 # clabconfig
-clabconfig is a program to help setup containerlab topologies using srlinux (made in dart by an amateur in its free time 😊). Please expect to find some errors in the program execution as I didn’t test all corner cases… 
+
+install using: 
+sudo docker run --rm -v $(pwd):/workspace ghcr.io/oras-project/oras:v0.12.0 pull ghcr.io/lmlsimoes/clabconfig:latest
+
+
+clabconfig.run is a program to help setup containerlab topologies using srlinux (made in dart by an amateur in its free time 😊). Please expect to find some errors in the program execution as I didn’t test all corner cases… 
 
 The idea is for a University student or anyone without much knowledge on Containerlab and SRLinux to be able to jump start with a working setup of a leaf and spine SRLinux virtual deployment, and work their way back.
 
